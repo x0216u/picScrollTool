@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			#picList {
+				display: flex;
+				justify-content: flex-start;
+			}
+			
+			#picList img {
+				margin-left: 20px;
+				margin-top: 20px;
+				width: 80px;
+				height: 80px;
+			}
+			
+			body {
+				margin: 0;
+				
+			}
+		
+		</style>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/picTool.js" ></script>
+		<script>
+			
+			$(function(){
+				//调用方式
+				$("#picList").createImgWin();
+			})
+		
+			
+		</script>
+	</head>
+
+	<body>
+		<div id="picList">
+			<img src="img/834.jpg" />
+			<img src="img/timg.jpg" />
+			<img src="img/cbd.jpg" />
+			<img src="img/shuijiao.jpg" />
+		</div>
+		
+	
+	</body>
+
+</html>
